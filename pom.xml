@@ -30,6 +30,23 @@
 		<java.version>17</java.version>
 	</properties>
 
+	<repositories>
+	  <repositories>
+	    <repository>
+	      <id>github</id>
+	      <url>https://maven.pkg.github.com/Jin-hyung-Park/aa-82107492</url>
+	    </repository>
+	  </repositories>
+	
+	<distributionManagement>
+	    <repository>
+	      <id>github</id>
+	      <name>GitHub 82107492 Apache Maven Packages</name>
+	      <url>https://maven.pkg.github.com/Jin-hyung-Park/aa-82107492</url>
+	      </repository>
+	</distributionManagement>
+	
+	
 	<dependencies>
 	    <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -80,24 +97,6 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-
-	<repositories>
-	  <!-- lib import용 repo 설정 -->
-	  <repositories>
-	    <repository>
-	      <id>github</id>
-	      <url>https://maven.pkg.github.com/Jin-hyung-Park/aa-82107492</url>
-	    </repository>
-	  </repositories>
-	
-	  <!-- package publish용 repo 설정 -->
-	<distributionManagement>
-	    <repository>
-	      <id>github</id>
-	      <name>GitHub 82107492 Apache Maven Packages</name>
-	      <url>https://maven.pkg.github.com/Jin-hyung-Park/aa-82107492</url>
-	      </repository>
-	</distributionManagement>
 	
 	<build>
 		<plugins>
