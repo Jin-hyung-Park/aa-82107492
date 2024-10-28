@@ -31,7 +31,6 @@
 	</properties>
 
 	<repositories>
-	  <repositories>
 	    <repository>
 	      <id>github</id>
 	      <url>https://maven.pkg.github.com/Jin-hyung-Park/aa-82107492</url>
