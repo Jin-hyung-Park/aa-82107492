@@ -10,11 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
     @GetMapping("/user")
     public String getUser() {
-        return "사번: 82107492";
-    }
-
-    @GetMapping("/userById")
-    public String getUserById(@RequestParam(value = "id", required = true) String id) {
-        return "사번: " + id;
+        return "Id : 82107492";
     }
 }
